@@ -1,0 +1,84 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        
+        h4 {
+            color: #34495e;
+            margin: 40px 0 20px 0;
+        }
+        
+        .uppy-container {
+            background: white;
+            width: 750px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .uploaded-files {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .preview-cont {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        
+        .preview-cont:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .preview-cont img {
+            display: block;
+            object-fit: cover;
+            height: 200px;
+            border-radius: 8px;
+        }
+        
+        /* Uppy customizations */
+        .uppy-Dashboard {
+            border: 1px solid #e1e4e8 !important;
+            border-radius: 8px !important;
+        }
+        
+        .uppy-Dashboard-inner {
+            border-radius: 8px !important;
+        }
+        
+        .uppy-Dashboard-AddFiles {
+            border: 2px dashed #d1d5da !important;
+            border-radius: 8px !important;
+        }
+        
+        .uppy-Dashboard-AddFiles:hover {
+            border-color: #a5a5a5 !important;
+        }
+        
+        .uppy-Dashboard-browse {
+            color: #4a6cf7 !important;
+        }
+        
+        .uppy-StatusBar {
+            border-bottom-left-radius: 8px !important;
+            border-bottom-right-radius: 8px !important;
+        }
